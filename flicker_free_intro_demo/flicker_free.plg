@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: flicker_free - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/flicker_free.res" /d "_DEBUG" /d "_AFXDLL" "D:\Example\Graph\flicker_free_intro_demo\flicker_free.rc"" 
+Creating temporary file "C:\Users\4CFA~1\AppData\Local\Temp\RSPB4F8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/flicker_free.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Example\Graph\flicker_free_intro_demo\flicker_free.cpp"
+"D:\Example\Graph\flicker_free_intro_demo\flicker_freeDoc.cpp"
+"D:\Example\Graph\flicker_free_intro_demo\flicker_freeView.cpp"
+"D:\Example\Graph\flicker_free_intro_demo\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\Users\4CFA~1\AppData\Local\Temp\RSPB4F8.tmp" 
+Creating temporary file "C:\Users\4CFA~1\AppData\Local\Temp\RSPB4F9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/flicker_free.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Example\Graph\flicker_free_intro_demo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\4CFA~1\AppData\Local\Temp\RSPB4F9.tmp" 
+Creating temporary file "C:\Users\4CFA~1\AppData\Local\Temp\RSPB4FA.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/flicker_free.pdb" /debug /machine:I386 /out:"Debug/flicker_free.exe" /pdbtype:sept 
+.\Debug\flicker_free.obj
+.\Debug\flicker_freeDoc.obj
+.\Debug\flicker_freeView.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\flicker_free.res
+]
+Creating command line "link.exe @C:\Users\4CFA~1\AppData\Local\Temp\RSPB4FA.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+flicker_free.cpp
+flicker_freeDoc.cpp
+flicker_freeView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+flicker_free.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
