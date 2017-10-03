@@ -1,0 +1,28 @@
+  
+      double dCurAngle  = 180;
+      double dWinkel = (dCurAngle) / 180.0 * 3.1416;
+      float dCos = (float) cos(dWinkel);
+      float dSin = (float) sin(dWinkel);
+      
+      XFORM xForm = {0};
+
+	   POINT centerPt;
+        centerPt.x = 100;
+        centerPt.y = 100;
+
+	//  double fangle = (double)dCurAngle / 180. * 3.1415926;
+   //         xForm.eM11 = (float)cos(fangle);
+   //         xForm.eM12 = (float)sin(fangle);
+   ///         xForm.eM21 = (float)-sin(fangle);
+   //         xForm.eM22 = (float)cos(fangle);
+   ////         xForm.eDx = (float)(centerPt.x - cos(fangle)*centerPt.x + sin(fangle)*centerPt.y);
+   //         xForm.eDy = (float)(centerPt.y - cos(fangle)*centerPt.y - sin(fangle)*centerPt.x);
+
+
+      xForm.eM11 = dCos;
+      xForm.eM12 = dSin;
+      xForm.eM21 = -dSin;
+      xForm.eM22 = dCos;
+	  xForm.eDx = 100;
+	  xForm.eDy = 100;
+    
