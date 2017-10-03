@@ -1,24 +1,24 @@
-# Microsoft Developer Studio Project File - Name="MyLes" - Package Owner=<4>
+# Microsoft Developer Studio Project File - Name="rotateDraw" - Package Owner=<4>
 # Microsoft Developer Studio Generated Build File, Format Version 6.00
 # ** DO NOT EDIT **
 
 # TARGTYPE "Win32 (x86) Application" 0x0101
 
-CFG=MyLes - Win32 Debug
+CFG=rotateDraw - Win32 Debug
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
 !MESSAGE 
-!MESSAGE NMAKE /f "MyLes.mak".
+!MESSAGE NMAKE /f "rotateDraw.mak".
 !MESSAGE 
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
 !MESSAGE 
-!MESSAGE NMAKE /f "MyLes.mak" CFG="MyLes - Win32 Debug"
+!MESSAGE NMAKE /f "rotateDraw.mak" CFG="rotateDraw - Win32 Debug"
 !MESSAGE 
 !MESSAGE Possible choices for configuration are:
 !MESSAGE 
-!MESSAGE "MyLes - Win32 Release" (based on "Win32 (x86) Application")
-!MESSAGE "MyLes - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE "rotateDraw - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "rotateDraw - Win32 Debug" (based on "Win32 (x86) Application")
 !MESSAGE 
 
 # Begin Project
@@ -29,7 +29,7 @@ CPP=cl.exe
 MTL=midl.exe
 RSC=rc.exe
 
-!IF  "$(CFG)" == "MyLes - Win32 Release"
+!IF  "$(CFG)" == "rotateDraw - Win32 Release"
 
 # PROP BASE Use_MFC 6
 # PROP BASE Use_Debug_Libraries 0
@@ -45,8 +45,8 @@ RSC=rc.exe
 # ADD CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Yu"stdafx.h" /FD /c
 # ADD BASE MTL /nologo /D "NDEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "NDEBUG" /mktyplib203 /win32
-# ADD BASE RSC /l 0x419 /d "NDEBUG" /d "_AFXDLL"
-# ADD RSC /l 0x419 /d "NDEBUG" /d "_AFXDLL"
+# ADD BASE RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
@@ -54,7 +54,7 @@ LINK32=link.exe
 # ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
 # ADD LINK32 /nologo /subsystem:windows /machine:I386
 
-!ELSEIF  "$(CFG)" == "MyLes - Win32 Debug"
+!ELSEIF  "$(CFG)" == "rotateDraw - Win32 Debug"
 
 # PROP BASE Use_MFC 6
 # PROP BASE Use_Debug_Libraries 1
@@ -70,8 +70,8 @@ LINK32=link.exe
 # ADD CPP /nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Yu"stdafx.h" /FD /GZ   /c
 # ADD BASE MTL /nologo /D "_DEBUG" /mktyplib203 /win32
 # ADD MTL /nologo /D "_DEBUG" /mktyplib203 /win32
-# ADD BASE RSC /l 0x419 /d "_DEBUG" /d "_AFXDLL"
-# ADD RSC /l 0x419 /d "_DEBUG" /d "_AFXDLL"
+# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
 BSC32=bscmake.exe
 # ADD BASE BSC32 /nologo
 # ADD BSC32 /nologo
@@ -83,22 +83,22 @@ LINK32=link.exe
 
 # Begin Target
 
-# Name "MyLes - Win32 Release"
-# Name "MyLes - Win32 Debug"
+# Name "rotateDraw - Win32 Release"
+# Name "rotateDraw - Win32 Debug"
 # Begin Group "Source Files"
 
 # PROP Default_Filter "cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 # Begin Source File
 
-SOURCE=.\MyLes.cpp
+SOURCE=.\rotateDraw.cpp
 # End Source File
 # Begin Source File
 
-SOURCE=.\MyLes.rc
+SOURCE=.\rotateDraw.rc
 # End Source File
 # Begin Source File
 
-SOURCE=.\MyLesDlg.cpp
+SOURCE=.\rotateDrawDlg.cpp
 # End Source File
 # Begin Source File
 
@@ -111,15 +111,15 @@ SOURCE=.\StdAfx.cpp
 # PROP Default_Filter "h;hpp;hxx;hm;inl"
 # Begin Source File
 
-SOURCE=.\MyLes.h
-# End Source File
-# Begin Source File
-
-SOURCE=.\MyLesDlg.h
-# End Source File
-# Begin Source File
-
 SOURCE=.\Resource.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rotateDraw.h
+# End Source File
+# Begin Source File
+
+SOURCE=.\rotateDrawDlg.h
 # End Source File
 # Begin Source File
 
@@ -131,15 +131,11 @@ SOURCE=.\StdAfx.h
 # PROP Default_Filter "ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
 # Begin Source File
 
-SOURCE=.\res\bitmap1.bmp
+SOURCE=.\res\rotateDraw.ico
 # End Source File
 # Begin Source File
 
-SOURCE=.\res\MyLes.ico
-# End Source File
-# Begin Source File
-
-SOURCE=.\res\MyLes.rc2
+SOURCE=.\res\rotateDraw.rc2
 # End Source File
 # End Group
 # Begin Source File
